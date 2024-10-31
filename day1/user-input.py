@@ -1,2 +1,4 @@
 while(True): 
-    print("Hello, " + input())
+    name = input()
+    print("Hello, " + name)
+    print("Length of string is {}".format(len(name)))
